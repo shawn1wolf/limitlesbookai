@@ -1,0 +1,611 @@
+{
+  "entrySpaceId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "order": 0.10398512044519737,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "3D",
+          "xrCameraType": "world",
+          "headset": "AR",
+          "phone": "AR"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "order": 1.1039851204451974,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "position": [
+        0,
+        5,
+        7
+      ],
+      "rotation": [
+        -1.8412919444518387e-17,
+        0.9537169517857893,
+        -0.30070579621354565,
+        -5.839832572618051e-17
+      ],
+      "scale": [
+        0.9999998646558023,
+        0.9999999931513284,
+        0.9999998715044741
+      ]
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "order": -1.1039851204451974,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "position": [
+        20,
+        20,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "c5acdb49-0254-4c14-bb56-8171538c98c3": {
+      "components": {
+        "79f469ef-c539-4741-aa96-58200b0c3a6f": {
+          "id": "79f469ef-c539-4741-aa96-58200b0c3a6f",
+          "name": "chromakey",
+          "parameters": {
+            "b": 49,
+            "bgBlue": 49,
+            "bgGreen": 174,
+            "bgRed": 25,
+            "g": 174,
+            "height": 1080,
+            "r": 25,
+            "similarity": 0.095,
+            "smoothness": 0.082,
+            "spill": 0.214,
+            "video": "assets/20250912_1801_Futuristic_AR_Cityscape_simple_compose_01k4zz4rqqezkr9624r0mxa7rg.mp4",
+            "width": 1920
+          }
+        },
+        "cb9e634d-6572-49e1-a863-8ed6cf93dd3c": {
+          "id": "cb9e634d-6572-49e1-a863-8ed6cf93dd3c",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "height": 1,
+        "type": "plane",
+        "width": 1.78
+      },
+      "id": "c5acdb49-0254-4c14-bb56-8171538c98c3",
+      "material": {
+        "color": "#FFFFFF",
+        "depthTest": true,
+        "depthWrite": true,
+        "forceTransparent": false,
+        "type": "basic",
+        "wireframe": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/20250912_1801_Futuristic_AR_Cityscape_simple_compose_01k4zz4rqqezkr9624r0mxa7rg.mp4"
+        }
+      },
+      "name": "Plane",
+      "order": 5.3441454283410454,
+      "parentId": "940fddae-742f-4760-ab2d-c8b0fdcc9017",
+      "position": [
+        0,
+        6.4411405443169945e-18,
+        0.07414715009415881
+      ],
+      "rotation": [
+        -2.9463894662387346e-16,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5466517614760605,
+        0.7475997205714825,
+        3.6959992676686726
+      ]
+    },
+    "940fddae-742f-4760-ab2d-c8b0fdcc9017": {
+      "id": "940fddae-742f-4760-ab2d-c8b0fdcc9017",
+      "position": [
+        0,
+        -0.22180436883429963,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865474,
+        0,
+        0,
+        0.7071067811865477
+      ],
+      "scale": [
+        6.356833969002507,
+        5.511402330867878,
+        1.0781028811778313
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "Screenshot 2025-09-12 at 6.11.53 PM"
+      },
+      "order": 4.467313898948792
+    },
+    "5be220b2-00a7-42f9-9719-aa35e83e2945": {
+      "id": "5be220b2-00a7-42f9-9719-aa35e83e2945",
+      "position": [
+        7.723849553611405,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        5.7107622262707505,
+        5.381906613335172,
+        4.927331558573748
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {},
+      "name": "Image Target (1)",
+      "imageTarget": {
+        "name": "Screenshot 2025-09-12 at 6.11.40 PM"
+      },
+      "order": 5.927917871733268
+    },
+    "9de88aa2-9d39-44cc-a69c-acb2ebda0e00": {
+      "id": "9de88aa2-9d39-44cc-a69c-acb2ebda0e00",
+      "position": [
+        0.022953933909194424,
+        1.2960303100708625e-18,
+        0.006375280590321713
+      ],
+      "rotation": [
+        -6.687291576394133e-16,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5667746471262108,
+        0.7540348310912642,
+        0.796483192580722
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.78,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "depthWrite": true,
+        "depthTest": true,
+        "wireframe": false,
+        "forceTransparent": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/20250912_1943_Sustainable_Future_in_Motion_simple_compose_01k504yy7rew1acj31gygsb6hf.mp4"
+        }
+      },
+      "components": {
+        "79f469ef-c539-4741-aa96-58200b0c3a6f": {
+          "id": "79f469ef-c539-4741-aa96-58200b0c3a6f",
+          "name": "chromakey",
+          "parameters": {
+            "video": "assets/20250912_1943_Sustainable_Future_in_Motion_simple_compose_01k504yy7rew1acj31gygsb6hf.mp4",
+            "similarity": 0.095,
+            "smoothness": 0.082,
+            "spill": 0.214,
+            "bgRed": 25,
+            "bgGreen": 174,
+            "bgBlue": 49,
+            "r": 25,
+            "g": 174,
+            "b": 49,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "cb9e634d-6572-49e1-a863-8ed6cf93dd3c": {
+          "id": "cb9e634d-6572-49e1-a863-8ed6cf93dd3c",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            }
+          }
+        }
+      },
+      "name": "Plane (1)",
+      "parentId": "5be220b2-00a7-42f9-9719-aa35e83e2945",
+      "order": 6.4119820297985415
+    },
+    "00584c46-d46a-4a22-bff5-567c29ff6831": {
+      "id": "00584c46-d46a-4a22-bff5-567c29ff6831",
+      "position": [
+        15.612478115253394,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        5.7107622262707505,
+        5.381906613335172,
+        4.927331558573748
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {},
+      "name": "Image Target (2)",
+      "imageTarget": {
+        "name": "Screenshot 2025-09-12 at 7.47.36 PM"
+      },
+      "order": 6.948876922383141
+    },
+    "c4f801f7-87af-433d-a108-6a4529547af6": {
+      "id": "c4f801f7-87af-433d-a108-6a4529547af6",
+      "position": [
+        0.009165382130627453,
+        0.004716957879653154,
+        0.0063752805903217104
+      ],
+      "rotation": [
+        -6.687291576394135e-16,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5633571487394553,
+        0.7494882042583981,
+        0.7916806135671327
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.78,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "depthWrite": true,
+        "depthTest": true,
+        "wireframe": false,
+        "forceTransparent": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/20250912_1953_Futuristic_City_Adventure_simple_compose_01k505htwdewrsz247d8ecsydv.mp4"
+        }
+      },
+      "components": {
+        "79f469ef-c539-4741-aa96-58200b0c3a6f": {
+          "id": "79f469ef-c539-4741-aa96-58200b0c3a6f",
+          "name": "chromakey",
+          "parameters": {
+            "video": "assets/20250912_1953_Futuristic_City_Adventure_simple_compose_01k505htwdewrsz247d8ecsydv.mp4",
+            "similarity": 0.095,
+            "smoothness": 0.082,
+            "spill": 0.214,
+            "bgRed": 25,
+            "bgGreen": 174,
+            "bgBlue": 49,
+            "r": 25,
+            "g": 174,
+            "b": 49,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "cb9e634d-6572-49e1-a863-8ed6cf93dd3c": {
+          "id": "cb9e634d-6572-49e1-a863-8ed6cf93dd3c",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            }
+          }
+        }
+      },
+      "name": "Plane (2)",
+      "parentId": "00584c46-d46a-4a22-bff5-567c29ff6831",
+      "order": 7.527097889800654
+    },
+    "a0f28f7b-a21a-4da3-8889-bc7001fb10f7": {
+      "id": "a0f28f7b-a21a-4da3-8889-bc7001fb10f7",
+      "position": [
+        -7.203724822204892,
+        3.469446951953614e-18,
+        0.2866149526679188
+      ],
+      "rotation": [
+        -0.7048203596656522,
+        0,
+        0,
+        0.7093858333803831
+      ],
+      "scale": [
+        5.461943262502129,
+        5.461943262502129,
+        5.461943262502129
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {},
+      "name": "Image Target (3)",
+      "imageTarget": {
+        "name": "Screenshot 2025-09-13 at 5.43.53 PM"
+      },
+      "order": -3.196003360337269
+    },
+    "a46d554c-f5ef-4aca-9a57-25cf6ce236e0": {
+      "id": "a46d554c-f5ef-4aca-9a57-25cf6ce236e0",
+      "position": [
+        -0.004934638717856155,
+        0.0194063033544885,
+        0.0028636940225881327
+      ],
+      "rotation": [
+        -0.003228304029116362,
+        0,
+        0,
+        0.9999947890129706
+      ],
+      "scale": [
+        0.9472739869172117,
+        0.7102454554193863,
+        0.7102454554193863
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/20250917_1502_Eco-Fashion_Innovation_simple_compose_01k5cgw5jse009ve3dr082je7e.mp4"
+        }
+      },
+      "parentId": "a0f28f7b-a21a-4da3-8889-bc7001fb10f7",
+      "components": {
+        "9c90ac6f-6e50-4099-9717-3c350202fb9e": {
+          "id": "9c90ac6f-6e50-4099-9717-3c350202fb9e",
+          "name": "chromakey",
+          "parameters": {
+            "video": "assets/20250917_1502_Eco-Fashion_Innovation_simple_compose_01k5cgw5jse009ve3dr082je7e.mp4",
+            "width": 1920,
+            "height": 1080,
+            "r": 25,
+            "g": 174,
+            "b": 49
+          }
+        }
+      },
+      "name": "Plane (3)",
+      "order": 9.748859021802902
+    },
+    "8fd9091f-4664-4507-9c69-5f2d31ddf364": {
+      "id": "8fd9091f-4664-4507-9c69-5f2d31ddf364",
+      "position": [
+        22.425335618151674,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        5.612601088134481,
+        5.612601088134481,
+        5.612601088134481
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {},
+      "name": "Image Target (4)",
+      "imageTarget": {
+        "name": "Screenshot 2025-09-13 at 6.09.43 PM"
+      },
+      "order": 8.452512547032034
+    },
+    "b25a1234-8086-464f-92f5-b608fb1c4d85": {
+      "id": "b25a1234-8086-464f-92f5-b608fb1c4d85",
+      "position": [
+        -0.001128377976979511,
+        -0.01231441710196546,
+        0.005596891842868518
+      ],
+      "rotation": [
+        -6.890232472427811e-16,
+        0.00042047992169687325,
+        2.24367918036658e-19,
+        0.9999999115983138
+      ],
+      "scale": [
+        0.5424728249999315,
+        0.6801442942294705,
+        0.6577515744359691
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.78,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "depthWrite": true,
+        "depthTest": true,
+        "wireframe": false,
+        "forceTransparent": false,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/20250913_1806_Futuristic_Digital_Marketplace_simple_compose_01k52hss03fyqtz5h5m91tcxfq.mp4"
+        }
+      },
+      "components": {
+        "79f469ef-c539-4741-aa96-58200b0c3a6f": {
+          "id": "79f469ef-c539-4741-aa96-58200b0c3a6f",
+          "name": "chromakey",
+          "parameters": {
+            "video": "assets/20250913_1806_Futuristic_Digital_Marketplace_simple_compose_01k52hss03fyqtz5h5m91tcxfq.mp4",
+            "similarity": 0.095,
+            "smoothness": 0.082,
+            "spill": 0.214,
+            "bgRed": 25,
+            "bgGreen": 174,
+            "bgBlue": 49,
+            "r": 25,
+            "g": 174,
+            "b": 49,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "cb9e634d-6572-49e1-a863-8ed6cf93dd3c": {
+          "id": "cb9e634d-6572-49e1-a863-8ed6cf93dd3c",
+          "name": "look-at-animation",
+          "parameters": {
+            "target": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            }
+          }
+        }
+      },
+      "name": "Plane (4)",
+      "parentId": "8fd9091f-4664-4507-9c69-5f2d31ddf364",
+      "order": 8.94326866697902
+    },
+    "17e1cf8c-7f1b-4707-8aec-61be6feef921": {
+      "id": "17e1cf8c-7f1b-4707-8aec-61be6feef921",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "components": {
+        "5a08ac53-b862-4e9f-a29b-a625c6d1ca92": {
+          "id": "5a08ac53-b862-4e9f-a29b-a625c6d1ca92",
+          "name": "smartbook-ui",
+          "parameters": {}
+        }
+      },
+      "name": "smartbook-ui",
+      "order": 10.341341823693396
+    }
+  },
+  "spaces": {
+    "c1059ea7-71e9-45f5-8371-da8d23b0ce71": {
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "id": "c1059ea7-71e9-45f5-8371-da8d23b0ce71",
+      "name": "Default",
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      }
+    }
+  },
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "historyVersion": "mgs66ki2"
+}

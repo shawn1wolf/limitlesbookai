@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/Screenshot 2025-09-13 at 6.09.43 PM_target.png",
+  "name": "Screenshot 2025-09-13 at 6.09.43 PM",
+  "type": "PLANAR",
+  "properties": {
+    "top": 73,
+    "left": 0,
+    "width": 1206,
+    "height": 1608,
+    "isRotated": true,
+    "originalWidth": 1206,
+    "originalHeight": 1754
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1757801446226,
+  "updated": 1757801446226
+}

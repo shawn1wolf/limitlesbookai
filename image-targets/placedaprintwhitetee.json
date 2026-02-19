@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/placedaprintwhitetee_target.png",
+  "name": "placedaprintwhitetee",
+  "type": "PLANAR",
+  "properties": {
+    "top": 150,
+    "left": 0,
+    "width": 900,
+    "height": 1200,
+    "isRotated": true,
+    "originalWidth": 900,
+    "originalHeight": 1500
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1757543319086,
+  "updated": 1757543319086
+}

@@ -1,0 +1,18 @@
+{
+  "imagePath": "image-targets/LimitlessWolf_target.png",
+  "name": "LimitlessWolf",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 88,
+    "width": 1500,
+    "height": 2000,
+    "isRotated": true,
+    "originalWidth": 1676,
+    "originalHeight": 2000
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1756775493037,
+  "updated": 1756775493037
+}
